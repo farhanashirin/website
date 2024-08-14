@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top:0;
+    /* z-index values can be positive or negative integers. 
+    Positive values bring the element forward, while negative values send it backward. */
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#5f1782,#a517ba);
+    /* !important: This is a keyword added to a CSS rule to make it the highest priority. It overrides any other rules that might conflict with it, 
+    including inline styles and styles defined later in the stylesheet. */
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height:40px;
+    padding-left: 10px;
+}
+.navbar-nav li{
+    /* top bottom   left rigt padding */
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 660px;
+    /* to make bars content in right */
+    float: right;
+    text-align: left;
+}
+.navbar-toggler{
+    outline: none;
+}
+#banner{
+    background-image: linear-gradient(to right,#5f1782,#a517ba);
+   color: #fff;
+   
+}
+.play-btn{
+    height:40px;
+    padding: 2px;
+    margin: 10px;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight:20px;
+    margin-top: 5px;
+}
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+.wave{
+width:100%;
+}
+.service-img{
+    width:100px;
+    margin-top: 20px;
+    margin: 5px;
+   
+}
+#services{
+
+    padding-top:50px;
+}
+.head{
+    text-transform: uppercase;
+    margin: 5px;
+}
+#services p{
+    text-align: justify;
+    padding: 5px;
+}
+.title::before{
+    content: '';
+    background: #5f1782;
+    height: 3px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(50px);
+    display: block;
+}
+.title::after{
+    content: '';
+    background: #5f1782;
+    height: 7px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    transform: translateY(1px);
+    display: block;
+}
+#services .btn-primary{
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image:  linear-gradient(to right,#5f1782,#a517ba);
+}
+/* about */
+#About-us{
+
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    padding-top: 50px;
+
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 600px;
+    margin-top: 8%;
+}
+#About-us ul li{
+    margin:10px 0;
+    
+}
+#About-us ul{
+    margin-left: 50px;
+}
+/* testimonials */
+#testimonials{
+    margin: 100px 0;
+}
+.testimonials{
+    border-left: 4px solid #5f1782;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+ 
+}
+.user-details{
+    display: inline-block;
+    padding-top: 5px;
+    font-size: 12px;
+}
+#social-media{
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p{
+
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.social-icons img{
+
+    height: 60px;
+    width: 50px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+/* footer */
+#footer{
+    background-image: linear-gradient(to right,#5f1782,#a517ba);
+}
+.footer-img{
+
+}
+.footer-box img{
+     margin-bottom: 10px;
+     width:200px;
+     height: 50px;
+   
+}
+.footer-box p i{
+    padding: 4px;
+}
+#footer img{
+    height: 139px;
+}
+
+
+   
+
+
+   
+    
+    
+
+
+
